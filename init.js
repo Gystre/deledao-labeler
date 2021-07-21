@@ -104,8 +104,8 @@ function filter() {
 
     //FUTURE KYLE: get colors and input/value for violence, sexual explicit
     highlightArray(hateAndRacismKeywords, "Red Dirt", hilitor, text, "subCategory", "hate/racism")
-    highlightArray(violenceKeywords, "", hilitor, text, "subCategory", "")
-    highlightArray(sexualExplicitKeyword, "", hilitor, text, "subCategory", "")
+    highlightArray(violenceKeywords, "DarkOrange", hilitor, text, "subCategory", "violence")
+    highlightArray(sexualExplicitKeywords, "Khaki", hilitor, text, "subCategory", "sexual_explicit")
 
     //genders
     highlightArray(maleKeywords, "red", hilitor, text, "gender", "male");
