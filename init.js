@@ -86,7 +86,7 @@ function filter() {
     //now highlight all the arrays
     //the main sub-categories
     highlightArray(
-        selfHarmAndSuicide,
+        selfHarmAndSuicideKeywords,
         "Aqua",
         hilitor,
         text,
@@ -94,7 +94,7 @@ function filter() {
         "self-harm/suicidal"
     );
     highlightArray(
-        anxietyAndDepression,
+        anxietyAndDepressionKeywords,
         "Violet",
         hilitor,
         text,
@@ -102,9 +102,17 @@ function filter() {
         "anxiety/depression"
     );
 
+    //FUTURE KYLE: get colors and input/value for violence, sexual explicit
+    highlightArray(hateAndRacismKeywords, "Red Dirt", hilitor, text, "subCategory", "hate/racism")
+    highlightArray(violenceKeywords, "", hilitor, text, "subCategory", "")
+    highlightArray(sexualExplicitKeyword, "", hilitor, text, "subCategory", "")
+
     //genders
     highlightArray(maleKeywords, "red", hilitor, text, "gender", "male");
     highlightArray(femaleKeywords, "blue", hilitor, text, "gender", "female");
+    highlightArray(transgenderKeywords, "Mocha", hilitor, text, "gender", "transgender")
+
+    //sexual orientation
     highlightArray(
         heteroSexualKeywords,
         "brown",
@@ -113,6 +121,7 @@ function filter() {
         "sexOrient",
         "heterosexual"
     );
+    highlightArray(homosexualKeywords, "Dark Forest Green", hilitor, text, "sexOrient", "homosexual_gay_or_lesbian")
 
     //then the races
     highlightArray(blackKeywords, "yellow", hilitor, text, "race", "black");
