@@ -1,12 +1,41 @@
-selfHarmAndSuicideKeywords = ["suicide", "suicidal", "kill", "killing", "die", "cut", "smack"];
+selfHarmAndSuicideKeywords = [
+    "suicide",
+    "suicides",
+    "suicidal",
+    "kill",
+    "killing",
+    "killed",
+    "die",
+    "cut",
+    "smack",
+    "cutting",
+    "death",
+    "hung",
+    "hang",
+];
 
-hateAndRacismKeywords = ["hate", "racism", "racist"]
+hateAndRacismKeywords = ["racism", "racist"];
 
-violenceKeywords = ["violence", "hit"]
+violenceKeywords = ["violence", "scratch"];
 
-sexualExplicitKeywords = ["dick", "penis", "cock", "wood", "pussy", "vagina", "ass", "asshole"]
+sexualExplicitKeywords = [
+    "dick",
+    "penis",
+    "cock",
+    "wood",
+    "pussy",
+    "vagina",
+    "ass",
+    "asshole",
+];
 
-anxietyAndDepressionKeywords = ["anxiety", "anxious", "depression", "depressed"];
+anxietyAndDepressionKeywords = [
+    "anxiety",
+    "anxious",
+    "depression",
+    "depressed",
+    "depressing",
+];
 
 femaleKeywords = [
     "she",
@@ -26,7 +55,16 @@ femaleKeywords = [
     "girlfriend",
     "gf",
     "sister",
-    "miss"
+    "sisters",
+    "daughter",
+    "daughters",
+    "goddaughter",
+    "goddaughters",
+    "granddaughter",
+    "granddaughters",
+    "bitch",
+    "bitches",
+    "grandma",
 ];
 
 maleKeywords = [
@@ -45,32 +83,27 @@ maleKeywords = [
     "boyfriend",
     "bf",
     "brother",
-    "mister"
+    "mister",
+    "son",
+    "sons",
+    "grandson",
+    "grandsons",
+    "godson",
+    "godsons",
+    "grandpa",
 ];
 
-transgenderKeywords = [
-    "transgender",
-    "trans",
-    "tranny"
-]
+transgenderKeywords = ["transgender", "trans", "tranny"];
 
-heteroSexualKeywords = [
-    "heterosexual",
-    "hetero"
-];
+heteroSexualKeywords = ["heterosexual", "hetero"];
 
-homosexualKeywords = [
-    "gay",
-    "lesbian",
-    "homosexual",
-    "homo"
-]
+homosexualKeywords = ["gay", "lesbian", "homosexual", "homo"];
 
-blackKeywords = ["black", "nigger", "nigga", "slave"];
+blackKeywords = ["black", "nigger", "nigga"];
 
 whiteKeywords = ["white", "cracker"];
 
-asianKeywords = ["indian", "asian", "chinese","chink", "korean", "japanese"];
+asianKeywords = ["indian", "asian", "chinese", "chink", "korean", "japanese"];
 
 latinoKeywords = ["latino", "mexican", "beaner", "hispanic"];
 
@@ -93,7 +126,7 @@ atheistKeywords = ["atheist"];
 nonReligiousKeywords = ["nonreligious", "non-religious"];
 
 //note: come back to this one and add more disabilities as come across them
-disabilityKeywords = ["adhd", "disability"];
+disabilityKeywords = ["disability", "adhd", "autism"];
 
 indigenousKeywords = ["indigenous"];
 

@@ -1,8 +1,18 @@
+v1.4
+* switched most blues, purples, yellows, and greens to help the disabled (paulo)
+* fixed color for transgender
+- smack from violence
+- miss from femaleKeywords
++ autim to disabilityKeywords
+
+v1.3
+* more keywords and fixed hate highlighting
+
 v1.2
-added hate/racism, violence, sexual explicit, and transgender keywords
+* added hate/racism, violence, sexual explicit, and transgender keywords
 
 v1.1
-switched seraching to regex for more accuracy
+* switched seraching to regex for more accuracy
 
 v1
-init release
+* init release

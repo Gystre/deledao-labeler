@@ -87,7 +87,7 @@ function filter() {
     //the main sub-categories
     highlightArray(
         selfHarmAndSuicideKeywords,
-        "Aqua",
+        "#CC6600", //mid red
         hilitor,
         text,
         "subCategory",
@@ -95,22 +95,49 @@ function filter() {
     );
     highlightArray(
         anxietyAndDepressionKeywords,
-        "Violet",
+        "#aaaaaa", //mid gray
         hilitor,
         text,
         "subCategory",
         "anxiety/depression"
     );
 
-    //FUTURE KYLE: get colors and input/value for violence, sexual explicit
-    highlightArray(hateAndRacismKeywords, "Red Dirt", hilitor, text, "subCategory", "hate/racism")
-    highlightArray(violenceKeywords, "DarkOrange", hilitor, text, "subCategory", "violence")
-    highlightArray(sexualExplicitKeywords, "Khaki", hilitor, text, "subCategory", "sexual_explicit")
+    highlightArray(
+        hateAndRacismKeywords,
+        "#ffcc99", //light orange
+        hilitor,
+        text,
+        "subCategory",
+        "hate/racism"
+    );
+    highlightArray(
+        violenceKeywords,
+        "DarkOrange",
+        hilitor,
+        text,
+        "subCategory",
+        "violence"
+    );
+    highlightArray(
+        sexualExplicitKeywords,
+        "#4d4d4d", //dark pink
+        hilitor,
+        text,
+        "subCategory",
+        "sexual_explicit"
+    );
 
     //genders
     highlightArray(maleKeywords, "red", hilitor, text, "gender", "male");
     highlightArray(femaleKeywords, "blue", hilitor, text, "gender", "female");
-    highlightArray(transgenderKeywords, "Mocha", hilitor, text, "gender", "transgender")
+    highlightArray(
+        transgenderKeywords,
+        "#ffe0b3", //light orange
+        hilitor,
+        text,
+        "gender",
+        "transgender"
+    );
 
     //sexual orientation
     highlightArray(
@@ -121,14 +148,21 @@ function filter() {
         "sexOrient",
         "heterosexual"
     );
-    highlightArray(homosexualKeywords, "Dark Forest Green", hilitor, text, "sexOrient", "homosexual_gay_or_lesbian")
+    highlightArray(
+        homosexualKeywords,
+        "#ffb3b3", //light pink
+        hilitor,
+        text,
+        "sexOrient",
+        "homosexual_gay_or_lesbian"
+    );
 
     //then the races
-    highlightArray(blackKeywords, "yellow", hilitor, text, "race", "black");
-    highlightArray(whiteKeywords, "Chartreuse", hilitor, text, "race", "white");
-    highlightArray(asianKeywords, "GoldenRod", hilitor, text, "race", "asian");
-    highlightArray(latinoKeywords, "purple", hilitor, text, "race", "latino");
-    highlightArray(indianKeywords, "orange", hilitor, text, "race", "indian");
+    highlightArray(blackKeywords, "#b36b00", hilitor, text, "race", "black"); //dark orange
+    highlightArray(whiteKeywords, "#4d3900", hilitor, text, "race", "white"); //dark yellow
+    highlightArray(asianKeywords, "#996633", hilitor, text, "race", "asian"); //mid brown
+    highlightArray(latinoKeywords, "#990000", hilitor, text, "race", "latino"); //crimson red
+    highlightArray(indianKeywords, "#1a1300", hilitor, text, "race", "indian"); //very dark yellow
     highlightArray(arabsKeywords, "green", hilitor, text, "race", "arabs");
 
     //now religion
