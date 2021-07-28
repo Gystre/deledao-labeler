@@ -7,22 +7,24 @@ selfHarmAndSuicideKeywords = [
     "killed",
     "die",
     "cut",
-    "smack",
     "cutting",
     "death",
     "hung",
     "hang",
+    "alive",
+    "live",
 ];
 
 hateAndRacismKeywords = ["racism", "racist"];
 
 violenceKeywords = ["violence", "scratch"];
 
+cyberbullyAndHarassmentKeywords = ["rape", "raped", "rapes"];
+
 sexualExplicitKeywords = [
     "dick",
     "penis",
     "cock",
-    "wood",
     "pussy",
     "vagina",
     "ass",
@@ -35,6 +37,7 @@ anxietyAndDepressionKeywords = [
     "depression",
     "depressed",
     "depressing",
+    "disorder",
 ];
 
 femaleKeywords = [
@@ -65,6 +68,8 @@ femaleKeywords = [
     "bitch",
     "bitches",
     "grandma",
+    "female",
+    "females",
 ];
 
 maleKeywords = [
@@ -91,11 +96,13 @@ maleKeywords = [
     "godson",
     "godsons",
     "grandpa",
+    "male",
+    "males",
 ];
 
 transgenderKeywords = ["transgender", "trans", "tranny"];
 
-heteroSexualKeywords = ["heterosexual", "hetero"];
+heteroSexualKeywords = ["heterosexual", "hetero", "husband", "wife"];
 
 homosexualKeywords = ["gay", "lesbian", "homosexual", "homo"];
 
@@ -113,7 +120,7 @@ arabsKeywords = ["arabian", "arab"];
 
 buddhistKeywords = ["buddhist"];
 
-christianKeywords = ["christian"];
+christianKeywords = ["christian", "god"];
 
 hinduKeywords = ["hindu"];
 
@@ -126,7 +133,7 @@ atheistKeywords = ["atheist"];
 nonReligiousKeywords = ["nonreligious", "non-religious"];
 
 //note: come back to this one and add more disabilities as come across them
-disabilityKeywords = ["disability", "adhd", "autism"];
+disabilityKeywords = ["disability", "adhd", "autism", "diagnose", "diagnosed"];
 
 indigenousKeywords = ["indigenous"];
 

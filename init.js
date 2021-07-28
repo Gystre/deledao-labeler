@@ -119,6 +119,14 @@ function filter() {
         "violence"
     );
     highlightArray(
+        cyberbullyAndHarassmentKeywords,
+        "#b33c00",
+        hilitor,
+        text,
+        "subCategory",
+        "self-harm/suicidal"
+    );
+    highlightArray(
         sexualExplicitKeywords,
         "#4d4d4d", //dark pink
         hilitor,

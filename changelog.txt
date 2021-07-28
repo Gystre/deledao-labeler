@@ -1,3 +1,6 @@
+v1.5
+* more accurate keywords
+
 v1.4
 * switched most blues, purples, yellows, and greens to help the disabled (paulo)
 * fixed color for transgender
