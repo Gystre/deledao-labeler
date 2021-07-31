@@ -120,11 +120,11 @@ function filter() {
     );
     highlightArray(
         cyberbullyAndHarassmentKeywords,
-        "#b33c00",
+        "#b33c00", //light brown
         hilitor,
         text,
         "subCategory",
-        "self-harm/suicidal"
+        "cyberbully/harassment"
     );
     highlightArray(
         sexualExplicitKeywords,

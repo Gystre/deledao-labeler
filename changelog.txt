@@ -1,3 +1,7 @@
+v1.6
+* fixed cyberbully/harassment highlighting
+* more accurate keywords
+
 v1.5
 * more accurate keywords
 
