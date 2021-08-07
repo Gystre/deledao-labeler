@@ -253,6 +253,29 @@ function filter() {
     );
 }
 
+function findEmptyRationale() {
+    //make sure we're in the reviewed area
+    if (!$("#st_reviewed").prop("checked")) {
+        console.log("ur not in reviewed :P");
+        return;
+    }
+
+    var skipButton = $("#skip");
+
+    //keep clicking the skip button until we find a rationale with less than 8 characters
+    var intervalFunc = setInterval(function () {
+        var text = $("input[name='tags']").val().length;
+
+        if (text < 8) {
+            console.log(text, "found one!");
+            clearInterval(intervalFunc);
+        } else {
+            skipButton.click();
+            console.log(text, "too long");
+        }
+    }, 500);
+}
+
 //append button to do the work for us
 var button = document.createElement("button");
 button.innerHTML = "auto label";
@@ -263,3 +286,8 @@ var div = document.createElement("div");
 div.innerHTML =
     "This button will label as much as it can from general pronouns and stuff but it won't get everything. Use with caution!!";
 document.body.append(div);
+
+var otherButton = document.createElement("button");
+otherButton.innerHTML = "find empty rationale";
+otherButton.onclick = findEmptyRationale;
+document.body.append(otherButton);

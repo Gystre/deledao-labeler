@@ -11,11 +11,14 @@ selfHarmAndSuicideKeywords = [
     "death",
     "hung",
     "hang",
+    "hanging",
+    "hanged",
     "alive",
     "live",
     "end",
     "ending",
     "kms",
+    "slit",
 ];
 
 hateAndRacismKeywords = ["racism", "racist"];
@@ -73,6 +76,8 @@ femaleKeywords = [
     "grandma",
     "female",
     "females",
+    "mum",
+    "spouse",
 ];
 
 maleKeywords = [

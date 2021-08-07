@@ -1,3 +1,7 @@
+v1.7
+* more keywords
+* new button to find empty rationales (haha zi bad)
+
 v1.6
 * fixed cyberbully/harassment highlighting
 * more accurate keywords
