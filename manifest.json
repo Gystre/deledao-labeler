@@ -1,6 +1,6 @@
 {
     "name": "Deledao Labeler",
-    "version": "1.0",
+    "version": "1.7",
     "manifest_version": 2,
     "description": "god this is so tedious...",
     "permissions": ["https://labeling.aix.deledao.com/*", "tabs"],

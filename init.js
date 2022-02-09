@@ -273,7 +273,7 @@ function findEmptyRationale() {
             skipButton.click();
             console.log(text, "too long");
         }
-    }, 500);
+    }, 250);
 }
 
 //append button to do the work for us
